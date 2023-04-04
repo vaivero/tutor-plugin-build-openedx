@@ -70,7 +70,7 @@ runs:
       shell: bash
       run: |
         tutor config save --set DOCKER_IMAGE_OPENEDX=${DOCKER_IMAGE_OPENEDX}
-        tutor config save --set LANGUAGE_CODE=en
+        tutor config save --set LANGUAGE_CODE=fr
 
     - name: Set Tutor-dependent environment variables
       shell: bash
